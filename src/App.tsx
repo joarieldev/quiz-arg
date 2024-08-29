@@ -6,7 +6,7 @@ import NotFound from './pages/NotFound'
 function App() {
   return (
     <BrowserRouter>
-      <main className="flex justify-center">
+      <main className="flex justify-center bg-sky-950">
         <div className="max-w-screen-lg">
           <Routes>
             <Route path="/" element={<Home />} />
