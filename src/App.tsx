@@ -10,7 +10,7 @@ function App() {
         <div className="max-w-screen-lg">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/quiz/:category/:questions" element={<Quiz />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
